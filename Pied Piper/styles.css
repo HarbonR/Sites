@@ -1,0 +1,195 @@
+@import url("normalize.css");
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 84px;
+}
+.contanier{
+    width: 100%;
+    height: inherit;
+    position: fixed;
+    background-color: #007765;
+}
+.header{
+    width: 1219px;
+    height: inherit;
+    margin: auto;
+}
+.header__logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 502px 20px 55px; 
+}
+.header__logo a{
+    display: inline-block;
+}
+.header__nav{
+    display: inline-block;
+    right: 0px;
+    padding-left: 0px;
+}
+.header__nav li{
+    display: inline-block;
+    padding: 0px 23px 0px 0px;
+    font-size: 24px;
+}
+.header__nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.jumbotron{
+    background-image: url("img/jumbotron_image.png");
+    margin: auto;
+    width: 1219px;
+    height: 403px;
+    font-size: 72px;
+    text-align: center;
+    line-height: 331px;
+    color: #FFFFFF;
+}
+#anchor_one{
+    margin-top: -83px;
+    padding-top: 83px;
+}
+.the_problem{
+    width: 1219px;
+    height: 719px;
+    margin: auto;
+    background-color: #EEEEEE;
+}
+.theProblem__header{
+    display: inline-block;
+    margin: 48px 0px 0px 0px;
+    font-size: 64px;
+    line-height: 75px;
+    font-weight: 500;
+    text-align: center;
+    width: inherit;
+    color: #007765;
+}
+.text_the_problem__text{
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    margin: 16px 54px 92px 55px;
+    line-height: 38px;
+    height: 488px;
+}
+.hero{
+    background-image: url("img/hero_image.png");
+    width: 1219px;
+    height: 483px;
+    margin: auto;
+    text-align: center;
+}
+.hero__text{
+    display: inline-block;
+    margin: 128px 163px 127px 163px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 500;
+    height: 228px;
+    font-style: italic;
+    color: #FFFFFF;
+}
+#anchor_two{
+    margin-top: -83px;
+    padding-top: 83px;
+}
+.Introducing_PiedPiperCoin{
+    width: 1219px;
+    height: 604px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+.Introducing_PiedPiperCoin__header{
+    display: inline-block;
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    margin: 48px 54px 0px 55px;
+    width: 1110px;
+}
+.Introducing_PiedPiperCoin__text{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 16px;
+}
+.Introducing_PiedPiperCoin__text img{
+    float: left;
+    margin: 0px 48px 0px 55px;
+}
+.Introducing_PiedPiperCoin__text__with_pictute{
+    display: inline-block;
+    margin: 0px 71px 0px 0px;
+    width: 930px;
+    height: 110px;
+}
+.Introducing_PiedPiperCoin__text__just_text{
+    margin: 40px 54px 92px 55px;
+}
+#anchor_three{
+    margin-top: -83px;
+    padding-top: 83px;
+}
+.the_Team{
+    width: 1219px;
+    height: 845px;
+    margin: auto;
+    background-color: #EEEEEE;
+}
+.the_Team__header{
+    display: inline-block;
+    width: inherit;
+    color: #007765;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    margin-top: 48px;
+}
+.the_Team__person{
+    display: inline-block;
+    margin: 32px 0px 32px 40px;
+    width: 350px;
+    height: 283px;
+    text-align: center;
+}
+.the_Team__person img{
+    margin: 24px 91px 12px 91px;
+}
+.the_Team__person span{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+.the_Team__person p{
+    margin: 0px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+footer{
+    width: 1219px;
+    height: 176px;
+    background-color: #333333;
+    margin: auto;
+}
+footer p{
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin: 48px 339px  64px 340px;
+}
